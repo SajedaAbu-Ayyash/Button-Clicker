@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="head">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search" />
+        <button id="login" onclick="logout(this)">Login</button>
+      </header>
+      <main>
+        <section>
+          <article class="article">
+            <h2>ninja</h2>
+            <p>noun</p>
+            <p>Plural:ninjas</p>
+            <button id="art-btn" onclick="alertBtn()">13 likes</button>
+            <p>
+              A practitioner skilled in the <a href="#">Japanese</a> art of
+              <a href="#">ninjutsu</a>
+            </p>
+          </article>
+          <article class="article">
+            <h2>ninja</h2>
+            <p>noun</p>
+            <p>Prular:ninjas</p>
+            <button id="art-btn" onclick="alertBtn()">37 likes</button>
+            <p>
+              A <a href="#">programmer</a> who breaks down problems with
+              <a href="#">zen</a>-like focus
+            </p>
+          </article>
+        </section>
+        <aside>
+          <section>
+            <h3>Dojonary is defined by YOU</h3>
+            <button id="aside-btn" onclick="remove(this)">
+              Add Definition
+            </button>
+          </section>
+        </aside>
+      </main>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
